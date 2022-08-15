@@ -10,7 +10,7 @@ services:
       - 8000:8000
 
   db:
-    image: postgres:15beta1
+    image: postgres:14.5
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust"
 
